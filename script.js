@@ -37,3 +37,5 @@ formatBtn.addEventListener("click", function () {
   formatBtn.textContent = use24Hour ? "Switch to 12-hour" : "Switch to 24-hour";
   updateClock();
 });
+ 
+

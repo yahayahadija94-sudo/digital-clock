@@ -1,18 +1,9 @@
 
- :root {
-    --bg: #45467e;
-    --card: #2b2f3a;
-    --accent: #3aebeb;
-    --accent-soft: #5fe8d8;
-    --text-dim: #b9bfc9;
-  }
-
-    
     * { box-sizing: border-box; }
   html, body {
     height: 100%;
     margin: 0;
-    background: var(--bg);
+    background: rgb(145, 107, 145);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,12 +11,13 @@
   }
   
 
-.clock-card {
+.container {
   text-align: center;
   background: #1e293b;
   padding: 2.5rem 3rem;
-  border-radius: 18px;
+  border-radius: 160px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+
 }
 
 #clock {
@@ -34,6 +26,7 @@
   font-weight: bold;
   letter-spacing: 4px;
   color: #38bdf8;
+  font-style: italic;
 }
 
 #date { margin-top: 0.5rem; color: #94a3b8; font-size: 1rem; }
